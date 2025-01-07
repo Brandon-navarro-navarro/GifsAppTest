@@ -1,0 +1,10 @@
+<h5>Buscar</h5>
+<div class="d-flex gap-2">
+  <input (keyup.enter)="searchTag()"
+  #txtTagInput
+  type="text"
+  class="form-control"
+  placeholder="Buscar gifs">
+  <button (click)="searchTag()" class="btn btn-primary">Buscar</button>
+</div>
+
