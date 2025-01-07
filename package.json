@@ -9,7 +9,7 @@
     "test": "ng test",
     "build:href": "ng build --base-href ./",
     "delete:docs": "if exist docs rmdir /S /Q docs",
-    "copy:dist": "xcopy dist\\bases\\browser docs /H /C /I",
+    "copy:dist": "xcopy dist\\gifs-app\\browser docs /H /C /I",
     "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist"
   },
   "private": true,
